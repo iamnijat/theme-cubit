@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:theme_cubit/presentation/widgets/intro_button.dart';
+import 'package:theme_cubit/presentation/widgets/intro_description.dart';
+import 'package:theme_cubit/presentation/widgets/intro_slider.dart';
+import 'package:theme_cubit/presentation/widgets/intro_title.dart';
 
 class IntroScreen extends StatefulWidget {
   const IntroScreen({Key key}) : super(key: key);
@@ -11,11 +15,18 @@ class _IntroScreenState extends State<IntroScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Theme Cubit"),),
-      body: const Center(
-        child: Text(
-          "Welcome to the Flutter App",
-          style: TextStyle(color: Colors.grey, fontSize: 23, fontWeight: FontWeight.bold),
+      body: SingleChildScrollView(
+        physics: const ClampingScrollPhysics(),
+        child: Column(
+          children: const <Widget>[
+            IntroSlider(),
+            IntroTitle(),
+            IntroDescription(),
+            SizedBox(
+              height: 55,
+            ),
+            IntroButton(),
+          ],
         ),
       ),
     );
