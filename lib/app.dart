@@ -47,8 +47,8 @@ class ThemeChange extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      themeMode:
-          context.select((ThemeCubit themeCubit) => themeCubit.state.themeMode),
+       themeMode: context.select(
+                    (ThemeCubit themeCubit) => themeCubit.state.themeMode),
       home: const IntroScreen(),
     );
   }
