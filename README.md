@@ -1,16 +1,12 @@
-# theme_cubit
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/iamnijat/theme-cubit/Flutter%20CI/master)
+![GitHub forks](https://img.shields.io/github/forks/iamnijat/theme-cubit)
+![GitHub stars](https://img.shields.io/github/stars/iamnijat/theme-cubit)
+![GitHub watchers](https://img.shields.io/github/watchers/iamnijat/theme-cubit)
+![GitHub contributors](https://img.shields.io/github/contributors/iamnijat/theme-cubit)
+![GitHub last commit](https://img.shields.io/github/last-commit/iamnijat/theme-cubit)
+![GitHub top language](https://img.shields.io/github/languages/top/iamnijat/theme-cubit)
 
-A new Flutter project.
+# Flutter Theme Cubit App
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Thumbnail](https://user-images.githubusercontent.com/42466886/138932001-ab40db23-9e54-4f97-9b5b-12f0de8d8b0e.png)
